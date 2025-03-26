@@ -1,0 +1,153 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <RootNamespace>Pak_Maker</RootNamespace>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Icons\Icon.ico</ApplicationIcon>
+  
+
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="C:\Users\ok\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\images\EvaIcons-ArrowCircleUp.png" />
+    <Content Remove="C:\Users\ok\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\images\Unicons-ArrowCircleDown.png" />
+    <Content Remove="C:\Users\ok\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\LICENSE.txt" />
+    <Content Remove="C:\Users\ok\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\wpfmostwanted.ico" />
+    <Content Remove="C:\Users\Robert\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\images\EvaIcons-ArrowCircleUp.png" />
+    <Content Remove="C:\Users\Robert\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\images\Unicons-ArrowCircleDown.png" />
+    <Content Remove="C:\Users\Robert\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\LICENSE.txt" />
+    <Content Remove="C:\Users\Robert\.nuget\packages\jon.wpf.customcontrols\2.33.0\contentFiles\any\net7.0-windows7.0\wpfmostwanted.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Icons\arrow.png" />
+    <None Remove="Icons\blunder.png" />
+    <None Remove="Icons\blundertxt.png" />
+    <None Remove="Icons\brushicon.png" />
+    <None Remove="Icons\close.png" />
+    <None Remove="Icons\crosshair.png" />
+    <None Remove="Icons\eor.png" />
+    <None Remove="Icons\eortxt.png" />
+    <None Remove="Icons\key.png" />
+    <None Remove="Icons\loadingtext.png" />
+    <None Remove="Icons\login.png" />
+    <None Remove="Icons\madebyzynn.png" />
+    <None Remove="Icons\minimalize.png" />
+    <None Remove="Icons\misctxt.png" />
+    <None Remove="Icons\painticon.png" />
+    <None Remove="Icons\pathtopaks.png" />
+    <None Remove="Icons\pistol.png" />
+    <None Remove="Icons\pistoltxt.png" />
+    <None Remove="Icons\rapidsails.png" />
+    <None Remove="Icons\rsicon.png" />
+    <None Remove="Icons\savepak.png" />
+    <None Remove="Icons\savesettings.png" />
+    <None Remove="Icons\save_button.png" />
+    <None Remove="Icons\savingpaktopath.png" />
+    <None Remove="Icons\settingsicon.png" />
+    <None Remove="Icons\testphoto.png" />
+    <None Remove="Icons\viewicon.png" />
+    <None Remove="Icons\viewstxt.png" />
+    <None Remove="Icons\weaponicon.png" />
+    <None Remove="Icons\worldicon.png" />
+    <None Remove="Resources\ControlzEx.dll" />
+    <None Remove="Resources\MahApps.Metro.dll" />
+    <None Remove="Resources\MahApps.Metro.resources.dll" />
+    <None Remove="Resources\Microsoft.Xaml.Behaviors.dll" />
+    <None Remove="Resources\Pak Maker.runtimeconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Icons\Icon.ico">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Animations\HTML\" />
+    <Folder Include="Animations\JS\" />
+    <Folder Include="Animations\CSS\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Extended.Wpf.Toolkit" Version="4.7.25103.5738" />
+    <PackageReference Include="Jon.Wpf.CustomControls" Version="2.33.0" />
+    <PackageReference Include="MahApps.Metro" Version="2.4.10" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="PixiEditor.ColorPicker" Version="3.4.2" />
+  </ItemGroup>
+
+	<ItemGroup>
+      <EmbeddedResource Include="Resources\ControlzEx.dll" />
+      <EmbeddedResource Include="Resources\MahApps.Metro.dll" />
+      <EmbeddedResource Include="Resources\MahApps.Metro.resources.dll" />
+      <EmbeddedResource Include="Resources\Microsoft.Xaml.Behaviors.dll" />
+      <EmbeddedResource Include="Resources\Pak Maker.runtimeconfig.json" />
+    </ItemGroup>
+
+		
+  <ItemGroup>
+	  
+    <Resource Include="Icons\arrow.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+	  
+    <Resource Include="Icons\blunder.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\close.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\crosshair.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\eor.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\key.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\login.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\madebyzynn.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\minimalize.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\painticon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\pistol.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\savesettings.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\save_button.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\settingsicon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\testphoto.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\viewicon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\weaponicon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+    <Resource Include="Icons\worldicon.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+  
+
+</Project>
